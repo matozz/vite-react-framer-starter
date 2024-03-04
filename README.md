@@ -16,11 +16,7 @@ A starter [Vite](https://vitejs.dev/) template having:
 - Tailwind CSS
 - Framer Motion
 
-and some elegant framer motion examples
-
-> **Note**
->
-> This code repository may occasionally update its dependency versions. If the dependency versions in the latest code do not meet your expectations, please go to [Tags](https://github.com/matozz/vite-react-framer-starter/tags) section to download a previous version of this template. I will display the dependencies used in each Tag, please choose the one you need.
+and some elegant framer motion [examples components](https://github.com/matozz/vite-react-framer-starter/tree/main/src/components)
 
 ## Install
 
