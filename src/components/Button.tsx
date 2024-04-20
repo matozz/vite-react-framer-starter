@@ -11,7 +11,7 @@ const Button: FC<PropsWithChildren<{ onTap?: TapHandlers["onTap"] }>> = ({
     <motion.button
       className="group relative cursor-pointer p-1"
       whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.9 }}
+      whileTap={{ scale: 1 }}
       onTap={onTap}
     >
       <motion.div
@@ -38,12 +38,12 @@ const Button: FC<PropsWithChildren<{ onTap?: TapHandlers["onTap"] }>> = ({
         transition={{ duration: 5, repeat: Infinity, repeatType: "reverse" }}
         style={{ backgroundSize: "400% 400%" }}
         className={cn(
-          "absolute inset-0 z-[1] rounded-2xl",
+          "absolute inset-[2px] z-[1] rounded-[12px]",
           "bg-[radial-gradient(circle_farthest-side_at_0_100%,#61dafb,transparent),radial-gradient(circle_farthest-side_at_100%_0,#3c82f6,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#ffc414,transparent),radial-gradient(circle_farthest-side_at_0_0,#1ca0fb,#141316)]",
         )}
       />
 
-      <div className="relative z-10 rounded-xl bg-[#282c34] px-4 py-2">
+      <div className="relative z-10 rounded-[10px] bg-[#282c34] px-4 py-2">
         {children}
       </div>
     </motion.button>
