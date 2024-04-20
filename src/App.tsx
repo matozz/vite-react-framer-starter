@@ -1,17 +1,17 @@
 import { useState } from "react";
 
 import Button from "./components/Button";
+import Icon from "./components/Icon";
 import Pin from "./components/Pin";
 import Typewriter from "./components/Typewriter";
 
 import viteLogo from "/vite.svg";
-import reactLogo from "./assets/react.svg";
 
 function App() {
   const [count, setCount] = useState(0);
 
   const words = [
-    { text: "Vite", className: "text-emerald-300" },
+    { text: "Vite", className: "text-[#a95eff]" },
     { text: " + " },
     { text: "React", className: "text-[#61dafb]" },
     { text: " + " },
@@ -22,9 +22,9 @@ function App() {
 
   return (
     <div className="text-center">
-      <header className="flex min-h-screen flex-col items-center justify-center gap-2 bg-[#282c34] text-white">
+      <header className="flex min-h-screen flex-col items-center justify-center gap-2 bg-[#282c34] pb-8 text-white">
         <Pin text="React 👍">
-          <img src={reactLogo} className="min-h-48 min-w-48" alt="logo" />
+          <Icon />
         </Pin>
 
         <Typewriter words={words} />
