@@ -31,7 +31,7 @@ const Typewriter = ({
               {word.text.map((char, index) => (
                 <motion.span
                   key={`char-${index}`}
-                  className={cn("text-whiteopacity-0 hidden", word.className)}
+                  className={cn("hidden text-white opacity-0", word.className)}
                 >
                   {char === " " ? <>&nbsp;</> : char}
                 </motion.span>
