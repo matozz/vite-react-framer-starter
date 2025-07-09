@@ -3,7 +3,7 @@
 <h2 align="center">vite-react-framer-starter</h2>
 
 <div align="center">
-<a href="https://reactjs.org/"><image src="https://img.shields.io/static/v1?label=React&message=v18&style=flat-square&logo=react&color=61DAFB"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=TypeScript&message=v5&style=flat-square&logo=typescript&color=3178C6"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=Tailwind%20CSS&message=v3&style=flat-square&logo=tailwindcss&color=06B6D4"/></a> <a href="https://cn.vitejs.dev/"><image src="https://img.shields.io/static/v1?label=Vite&message=v5&style=flat-square&logo=vite&color=00ccb1"/> <a href="https://cn.vitejs.dev/"><image src="https://img.shields.io/static/v1?label=Framer&message=v11&style=flat-square&logo=framer&color=ff57c8"/></a>
+<a href="https://reactjs.org/"><image src="https://img.shields.io/static/v1?label=React&message=v19&style=flat-square&logo=react&color=61DAFB"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=TypeScript&message=v5&style=flat-square&logo=typescript&color=3178C6"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=Tailwind%20CSS&message=v4&style=flat-square&logo=tailwindcss&color=06B6D4"/></a> <a href="https://cn.vitejs.dev/"><image src="https://img.shields.io/static/v1?label=Vite&message=v7&style=flat-square&logo=vite&color=00ccb1"/> <a href="https://cn.vitejs.dev/"><image src="https://img.shields.io/static/v1?label=Framer&message=v12&style=flat-square&logo=framer&color=ff57c8"/></a>
 </div>
 
 ## Introduction
