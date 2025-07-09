@@ -42,6 +42,7 @@ function App() {
             className="text-[#61dafb] transition-all hover:text-blue-500"
             href="https://react.dev/learn"
             target="_blank"
+            rel="noreferrer"
           >
             Learn React
           </a>
@@ -50,6 +51,7 @@ function App() {
             className="text-[#61dafb] transition-all hover:text-blue-500"
             href="https://vitejs.dev/guide/"
             target="_blank"
+            rel="noreferrer"
           >
             Vite Docs
           </a>
@@ -58,6 +60,7 @@ function App() {
             className="text-[#61dafb] transition-all hover:text-blue-500"
             href="https://tailwindcss.com/docs/installation"
             target="_blank"
+            rel="noreferrer"
           >
             Tailwindcss Docs
           </a>
@@ -66,6 +69,7 @@ function App() {
             className="text-[#61dafb] transition-all hover:text-blue-500"
             href="https://www.framer.com/motion/"
             target="_blank"
+            rel="noreferrer"
           >
             Framer Docs
           </a>
